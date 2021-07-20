@@ -10,7 +10,8 @@
     width: 100%;
     justify-content: center;
     align-items: center;
-    background-image: url(https://th.bing.com/th/id/R.f50fdb0286f783d0a8a0d7ab512aee76?rik=WcdWvRpXHQEs2w&riu=http%3a%2f%2fwww.saratogaskies.com%2fic405-50pct-1536x1024.jpg&ehk=%2b0Ndzomt%2fJcrr91iP4qt7ezSxdOo%2fuMM5VTXoC6N45w%3d&risl=&pid=ImgRaw);
+    background:radial-gradient(rgba(241, 237, 237, 0.5),rgba(179,255,255,1),rgba(0,0,0,0.2))
+    /* background-image: url(https://th.bing.com/th/id/R.f50fdb0286f783d0a8a0d7ab512aee76?rik=WcdWvRpXHQEs2w&riu=http%3a%2f%2fwww.saratogaskies.com%2fic405-50pct-1536x1024.jpg&ehk=%2b0Ndzomt%2fJcrr91iP4qt7ezSxdOo%2fuMM5VTXoC6N45w%3d&risl=&pid=ImgRaw); */
     
     /* position: fixed;
     animation: ravi;
@@ -65,8 +66,4 @@ img{
 
 .itm{
     justify-content: space-between;
-}
-
-#mit{
-    color: tomato;
 }
