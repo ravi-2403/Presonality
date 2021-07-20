@@ -1,0 +1,72 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+
+
+.fcontainer{
+    height: 100vh;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    background-image: url(https://th.bing.com/th/id/R.f50fdb0286f783d0a8a0d7ab512aee76?rik=WcdWvRpXHQEs2w&riu=http%3a%2f%2fwww.saratogaskies.com%2fic405-50pct-1536x1024.jpg&ehk=%2b0Ndzomt%2fJcrr91iP4qt7ezSxdOo%2fuMM5VTXoC6N45w%3d&risl=&pid=ImgRaw);
+    
+    /* position: fixed;
+    animation: ravi;
+    animation-duration: 2s;
+    animation-iteration-count: infinite; */
+}
+/* @keyframes ravi {
+    from{
+        transform: rotate(0deg);
+        transform: rotate(360deg);
+    }
+} */
+
+.fitem{
+    position: sticky;
+    /* border: black 3px solid; */
+    height: 500px;
+    width: fit-content;
+    display: flex;
+    border-radius: 10px;
+    background:radial-gradient(rgba(179,255,255,1),rgba(241, 237, 237, 0.5),rgba(0,0,0,0.2))
+}
+
+.tim{
+    font-family: 'courgette', cursive;
+    font-size: 30px;
+}
+
+.input{
+    background-color: rgb(240, 212, 202);
+    box-shadow: cornsilk;
+    height: 25px;
+}
+#btn
+{
+    width: 100px;
+    height: 30px;
+    background-color: coral;
+    font-family: 'courgette',cursive;
+    font-size: 20px;
+}
+
+#btn:hover{
+    background-color: rgb(156, 99, 78);
+}
+
+img{
+    height: 150px;
+    width: 150px;
+    padding-left: 33px;
+}
+
+.itm{
+    justify-content: space-between;
+}
+
+#mit{
+    color: tomato;
+}
